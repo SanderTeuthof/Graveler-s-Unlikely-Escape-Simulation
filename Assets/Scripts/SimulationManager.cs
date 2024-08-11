@@ -17,7 +17,7 @@ public class SimulationManager : MonoBehaviour
     public int ppInitial = 54;
     public Text TextToShow;
     private const int MAX_THREAD_GROUPS = 65535; // Maximum allowed thread groups
-    private const int BATCH_SIZE = 10000000; // Size of each batch
+    private const int BATCH_SIZE = 5000000; // Size of each batch
 
     private float _startTime;
     private Stopwatch _stopwatch = new Stopwatch();
